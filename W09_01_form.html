@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    </head>
+<body>
+            <h1>HTML Form</h1>
+            <h3>Input Element</h3>
+            <p>An <Span style="color: brown;">input element</Span>  can be displayed in manny ways, depending on the <Span style="color: brown;">type</Span>  attribute.</p>
+
+            <fieldset style="background-color: rgb(182, 228, 240);">
+                <legend>Text Field</legend>
+                <form action="" method="">
+                <label for="ff">Fiest Name</label>
+                <input type="text" id="ff" Name="Fname" placeholder="ป้อนชื่อ" required> 
+                <br><br>
+
+                <label for="nn">Last Name</label>
+                <input type="text" id="nn" Name="lname" placeholder="ป้อนนามสกุล"> 
+                <br><br>
+
+                <label for="mm">Emali</label>
+                <input type="text" id="mm" Name="Email" placeholder="ป้อนอีเมล"> 
+                <br><br>
+
+                <label for="age0">Age</label>
+                <input type="Number" name="age0" placeholder="ป้อนอายุ" id="age0" min="0" max="10" step="2"> <br><br>
+
+                <label for="age1">Age Readonly</label>
+                <input type="Number" name="age1" placeholder="ป้อนอายุ" id="age1" min="0" max="10" step="2" value="" readonly> <br><br>
+
+                <label for="pwd">Password</label>
+                <input type="password" name="pwd" id="pwd" placeholder="ป้อนรหัสผ่าน"> <br><br>
+
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date"> <br><br>
+
+                <label for="url">website</label>
+                <input type="url" name="url" id="url" placeholder="https://www.example.com"> <br><br>
+
+                <label for="address">ที่อยู่</label> <br>
+                <Textarea name="address" id="address" cols="30" rows="5">
+                </Textarea> <br><br>
+
+                <label for="photo">เลือกรูป</label>
+                <input type="file" name="photo" id="photo"> <br><br>
+                
+                <label for="color">สี</label>
+                <input type="color" name="color" id="color"><br><br>
+
+            <input type="submit">
+            <input type="Reset">
+            
+            </form>
+            </fieldset>
+
+
+
+            <fieldset>
+                <legend>Radio Button</legend>
+                <form action="" method="">
+                    <label>Gender : </label>
+                    <input type="radio" name="Gender" id="Gender" value="M">
+                    <label for="">ชาย</label>
+                    <input type="radio" name="Gender" id="Gender" value="F">
+                    <label for="female">หญิง</label>
+
+                    <br><br>
+                    <input type="submit" value="ยืนยัน">
+                
+                 
+            </form>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Checbox</legend>
+                <form action="" method="">
+                    <label>วิชาที่ชอบ</label>
+                    <input type="checkbox" name="subject" id="math" value="math">
+                     <label for="math">คณิตศาสตร์</label>
+                     <input type="checkbox" name="subject" id="sci" value="sci">
+                     <label for="math">ศิลปะ</label>
+                     <input type="checkbox" name="subject" id="color" value="color">
+                     <label for="math">วิทยาศาสตร์</label>
+                     <input type="checkbox" name="subject" id="eng" value="eng">
+                     <br><br>
+                     <button type="submit">ตกลง</button>
+
+                </form>
+            </fieldset>
+
+            <fieldset>
+                <legend>DropDown List [Select..Option..]</legend>
+                <form action="" method="">
+                    <label for="province">จังหวัด</label>
+                    <select name="" id="">
+                        <option value="bkk">กรุงเทพมหานคร</option>
+                        <option value="Nakhon pathom">นครปฐม</option>
+                        <option value="Khonkean">ขอนแก่น</option>
+                        <option value="Chiangmai">เชียงใหม่</option>
+                    </select>
+                    <button type="submit">ตกลง</button>
+
+                </form>
+            </fieldset>
+
+        </body>
+</html>

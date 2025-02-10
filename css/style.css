@@ -1,5 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(226, 211, 214);
+}
 header {
   background-color: bisque;
+  margin-bottom: 20px;
 }
 nav {
   display: flex;
@@ -44,9 +51,43 @@ nav {
   border: 1px soild blue;
 }
 
-footer {
-  background-color: aquamarine;
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
 .container {
-  background-color: blueviolet;
+  width: 70%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: bisque;
+  height: 60px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 0;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+a:hover {
+  color: rgb(27, 46, 221);
+}
+button:hover {
+  color: rgb(27, 46, 221);
+  background-color: rgb(141, 233, 236);
 }

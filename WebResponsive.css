@@ -153,18 +153,25 @@ h2 {
 /*customize*/
 .custommize{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .support{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items:center;
-
+ .left-side{
+  width: 50%;
+  img{
+    width: 70%;
+  }
+ }
 }
-คุณส่ง
 .lift-side {
   width: 50%;
+  img {
+    width: 100%;
+  }
   h1 {
     color: var(--primary-color);
     font-size: 2.5rem;
@@ -174,6 +181,7 @@ h2 {
     font-size: 1.2rem;
     margin: 24px 0;
   }
+  
   }
 .right-side {
   width: 50%;

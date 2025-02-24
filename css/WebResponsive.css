@@ -63,19 +63,24 @@ header {
 }
 .btn {
 }
-nav,
-ul {
+nav {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+nav ul {
   display: flex;
   list-style: none;
   gap: 15px;
-  margin-left: 20px;
+  margin: flex;
   a {
     text-decoration: none;
-    color: var(--primary-color);
     font-weight: bold;
+    color: purple;
   }
   a:hover {
-    color: var(--secondary-color);
+    color: lightpurple;
   }
 }
 .container {
@@ -151,21 +156,22 @@ h2 {
   gap: 20px;
 }
 /*customize*/
-.custommize{
+.custommize {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.support{
+.support {
   display: flex;
-  justify-content: center;
-  align-items:center;
- .left-side{
-  width: 50%;
-  img{
-    width: 70%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  .left-side {
+    width: 50%;
+    img {
+      width: 70%;
+    }
   }
- }
 }
 .lift-side {
   width: 50%;
@@ -181,8 +187,7 @@ h2 {
     font-size: 1.2rem;
     margin: 24px 0;
   }
-  
-  }
+}
 .right-side {
   width: 50%;
   img {
@@ -197,4 +202,90 @@ h2 {
     font-size: 1.2rem;
     margin: 24px 0;
   }
+}
+footer {
+  background-color: var(--primary-color);
+  color: var(--bes-color-white);
+  padding: 20px 0;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-left {
+  h3 {
+    color: var(--secondary-color);
+    margin-bottom: 2;
+  }
+}
+.footer-right {
+  display: flex;
+  gap: 40px;
+
+  ul {
+    list-style: none;
+
+    li {
+      margin-bottom: 4px;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--bes-color-white);
+    }
+  }
+}
+.footer-item {
+  h4 {
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+  }
+  a:hover {
+    color: var(--secondary-color);
+  }
+}
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  .hero {
+    flex-direction: column;
+  }
+  .left-side,
+  .right-side {
+    width: 100%;
+  }
+  .solution-content {
+    flex-direction: column;
+
+    .item {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .custommize {
+      flex-direction: column;
+    }
+    .support {
+      flex-direction: column;
+    }
+    .discover-content {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-container {
+      flex-direction: column;
+    }
+    .footer-item {
+    }
+    .hamburger {
+      display: block;
+      font-size: 2rem;
+      cursor: pointer;
+    }
+  }
+}
+.hamburger-icon {
+  display: none;
 }

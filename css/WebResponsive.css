@@ -178,7 +178,7 @@ footer {
   margin: 0 auto;
 }
 .footer-left {
-  h3 {
+  h3{
     color: var(--secondary-color);
     margin-bottom: 20px;
   }
@@ -207,23 +207,22 @@ footer {
     font-size: 1.2rem;
   }
 }
-.hamburger-icons {
+.hamburger-icons{
   display: none;
 }
-.full-screen-menu {
+.full-screen-menu{
   display: none;
 }
 
 /* Responsive for Mobile */
-@media screen and (max-width: 768px) {
-  nav {
+@media screen and (max-width:768px) {
+  nav{
     display: none;
   }
   .hero {
     flex-direction: column;
   }
-  .text-side,
-  .pic-site {
+  .text-side,.pic-site{
     width: 100%;
   }
   .solution-content {
@@ -233,39 +232,39 @@ footer {
       margin-bottom: 20px;
     }
   }
-  .customize {
+  .customize{
     flex-direction: column;
   }
-  .support {
+  .support{
     flex-direction: column;
   }
   .discover-content {
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
   }
-  .footer-containner {
+  .footer-containner{
     flex-direction: column;
     padding: 10px 10px;
   }
-  .footer-right {
+  .footer-right{
     flex-direction: column;
   }
-  .footer-left {
-    margin-bottom: 24px;
+  .footer-left{
+    margin-bottom: 24px ;
   }
-  .hamburger-icons {
+  .hamburger-icons{
     display: block;
     font-size: 2rem;
     cursor: pointer;
   }
-  .header-button {
+  .header-button{
     display: none;
   }
-  header {
+  header{
     padding: 10px 10px;
   }
   /* เมนูเต็มจอ */
-  .full-screen-menu {
+.full-screen-menu {
     display: none;
     position: fixed;
     top: 0;
@@ -277,33 +276,34 @@ footer {
     text-align: center;
     padding-top: 50px;
     z-index: 999;
-  }
+}
 
-  .full-screen-menu ul {
+.full-screen-menu ul {
     list-style: none;
     padding-top: 50px;
-  }
+}
 
-  .full-screen-menu ul li {
+.full-screen-menu ul li {
     margin: 20px 0;
-  }
+}
 
-  .full-screen-menu ul li a {
+.full-screen-menu ul li a {
     font-size: 20px;
     color: white;
     text-decoration: none;
-  }
+}
 
-  .full-screen-menu ul li a:hover {
+.full-screen-menu ul li a:hover {
     color: var(--secondary-color);
-  }
+}
 
-  /* ปุ่มปิดเมนู */
-  .close-btn {
+/* ปุ่มปิดเมนู */
+.close-btn {
     font-size: 32px;
     position: absolute;
     top: 20px;
     right: 30px;
     cursor: pointer;
-  }
+}
+
 }

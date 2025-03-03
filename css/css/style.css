@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(226, 211, 214);
+}
+header {
+  background-color: bisque;
+  margin-bottom: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 64px;
+}
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
+}
+.logo-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.logo-menu {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btn-primary {
+  background-color: blue;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+}
+.btn-secondary {
+  background-color: rgb(255, 255, 255);
+  color: #3932ff;
+  padding: 8px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px soild blue;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: bisque;
+  height: 60px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 0;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+a:hover {
+  color: rgb(27, 46, 221);
+}
+button:hover {
+  color: rgb(27, 46, 221);
+  background-color: rgb(141, 233, 236);
+}

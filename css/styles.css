@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  }
+  .blur-container {
+    position: relative;
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Applies the blur effect */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+.card{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+}
